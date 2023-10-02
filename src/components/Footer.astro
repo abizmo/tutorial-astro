@@ -1,0 +1,16 @@
+---
+import Social from './Social.astro';
+const username = "abizmo"
+---
+<footer>
+  <Social plataform="github" username={username} />
+  <Social plataform="youtube" username={username} />
+</footer>
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
